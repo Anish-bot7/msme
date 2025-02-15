@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    background-color: grey;
+    height:50px;
+    width: 100%;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+}
+
+.navbar-links{
+    padding-right:10px ;
+}
+.container{
+    top: 0;
+    position:fixed;
+    left: -20%;
+    background-color: gray;
+    width: 20%;
+    height:100%;
+    transition: 1s;
+}
+
+.side-navbar-links a{
+    display: block;
+    margin: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color :white;
+
+}
+
+.search-box{
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 600px;
+    background: #fff;
+    border-radius: 5px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px ;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+.results ul{
+    border-top: 1px solid black;
+    padding: 15px 10px;
+}
+.results ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.results ul li:hover{
+    background-color: rgb(194, 212, 224);
+}
+.image-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.containers{
+    border: solid black 2px;
+    padding: 20px;
+}
+.image-container :hover{
+    background-color: gold;
+}
